@@ -1,0 +1,88 @@
+/*MISI*/
+.container .misi{
+    display: flex;
+    align-items: center;
+    margin-top: 135px;
+    margin-left: 64px;
+}
+
+.container .misi .gambar {
+    width: 284px;
+    height: 332px;
+    background-image: url(../images/tangan.png);
+    background-size: auto;
+    margin-left: -825px;
+    box-shadow:  2px 2px 2px 2px rgb(37, 37, 37);
+}
+
+.container .misi .kotak .content {
+    background: #090F00;
+    color: #fff;
+    padding: 61px 58px 68px 400px;
+    width: 885px;
+    height: 248px;
+    box-shadow:  2px 2px 2px 2px rgb(37, 37, 37);
+}
+
+.container .misi .kotak .content h1 {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.container .misi .kotak .content p {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/*VISI*/
+.container .visi{
+    display: flex;
+    align-items: center;
+    margin-top: 71px;
+    margin-left: 181px;
+}
+
+.container .visi .gambar {
+    width: 267px;
+    height: 333px;
+    background-image: url(../images/savetheworld.png);
+    background-size: auto;
+    margin-left: -350px;
+    box-shadow:  2px 2px 2px 2px rgb(37, 37, 37);
+}
+
+.container .visi .kotak .content {
+    background: #1C2428;
+    color: #fff;
+    padding: 61px 445px 68px 83px;
+    width: 897px;
+    height: 248px;
+    box-shadow:  2px 2px 2px 2px rgb(37, 37, 37);
+    box-shadow:  2px 2px 2px 2px rgb(37, 37, 37);
+}
+
+.container .visi .kotak .content h1 {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.container .visi .kotak .content p {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container .misi{
+        display: none;
+    }
+
+    .container .visi {
+        display: none;
+    }
+}

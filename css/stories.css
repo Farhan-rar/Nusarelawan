@@ -1,0 +1,209 @@
+.stories-section {
+    margin-top: 95px;
+}
+
+.stories-section .profile-orang {
+    padding-top: 50px;
+}
+
+.stories-section .profile-orang .title h3 {
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 500;
+    color: #27045B;
+}
+
+.stories-section .profile-orang .sub-title {
+    display: flex;
+}
+
+.stories-section .profile-orang .sub-title h1 {
+    display: flex;
+    font-family: 'poppins';
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.stories-section .profile-orang .sub-title a {
+    padding: 7px 32px 7px 32px;
+    margin-left: 442px;
+    margin-top: 12px;
+    border-radius: 50px;
+    font-style: 'poppins';
+    background: #DADADA;
+}
+
+.stories-section .profile-orang .sub-title a:hover {
+    padding: 7px 32px 7px 32px;
+    margin-left: 442px;
+    margin-top: 12px;
+    border-radius: 50px;
+    background: #b6b6b6;
+}
+
+
+.stories-section .card{
+    padding: 0%;
+    margin-top: 28px;
+    border-radius: 20px;
+    width: 306px;
+    height: 267px;
+    background: #27045B;
+    color: #FFF;
+}
+
+.stories-section .card .header {
+    display: flex;
+    align-items: center;
+    padding: 28px 20px 25px 28px;
+}
+
+.stories-section .card .header .profile-picture {
+    width: 76px;
+    height: 76px;
+    border-radius: 15px;
+    background: #000000;
+    margin-right: 16px;
+
+}
+
+#samuel {
+    background-image: url(../images/samuel.png);
+}
+
+#rudi {
+    background-image: url(../images/rudi.png);
+}
+
+#acha {
+    background-image: url(../images/acha.png);
+    background-size: cover;
+}
+
+.stories-section .card .header .name h1 {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.stories-section .card .deskripsi p {
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0 22px 18px 28px;
+    margin: 0 !important;
+}
+
+.stories-section .card .footer {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    padding-right: 16px;
+}
+
+.stories-section .card .footer .location {
+    padding-top: -100px;
+    margin-right: 10px;
+}
+
+.stories-section .card .footer .addres h1 {
+    font-style: 'poppins';
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.stories-section .card .footer a {
+    font-style: 'poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFF;
+    background: #857DFC;
+    padding: 4px 24px 4px 25px;
+    margin-left: 43px;
+    border-radius: 5px;
+}
+
+.stories-section .card .footer a:hover {
+    font-style: 'poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFF;
+    background: #5145ff;
+    padding: 4px 24px 4px 25px;
+    margin-left: 43px;
+}
+
+/*SHARE STORIES*/
+.stories-section .share-stories {
+    margin-top: 70px;
+}
+
+.stories-section .share-stories h1 {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 36px;
+    color: #27045B;
+}
+
+.stories-section .share-stories p {
+    margin-top: 30px;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.btn-buatcerita {
+    margin-top: 67px;
+    padding: 11px 52px 12px 52px;
+    background: #9852f9;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn-buatcerita:hover {
+    margin-top: 67px;
+    padding: 11px 52px 12px 52px;
+    background: #8f43fa;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .stories-section {
+        margin-top: 30px;
+    }
+
+    .stories-section .profile-orang .sub-title a {
+        position: absolute;
+        padding: 7px 32px 7px 32px;
+        margin-top: 85px;
+        border-radius: 50px;
+        font-style: 'poppins';
+        font-size: 12px;
+        background: #DADADA;
+        margin-left: 0;
+    }
+
+    .stories-section .card{
+        padding: 0%;
+        margin: auto;
+        margin-top: 60px;
+        border-radius: 20px;
+        width: 306px;
+        height: 267px;
+        background: #27045B;
+        color: #FFF;
+        text-align: center;
+    }
+    
+    .share-stories img {
+        width: 350px;
+    }
+}

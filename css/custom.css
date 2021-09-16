@@ -1,0 +1,135 @@
+.btn-primary {
+    background: #FF9900;
+    border: 0;
+    padding: 15px 42px 15px 41px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #d68100;
+    border: 0;
+}
+
+.herohan {
+    margin-top: 30px;
+}
+
+.herohan h1 {
+    font-family: 'poppins';
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.herohan p {
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button-cta {
+    display: flex;
+}
+
+.link-video {
+    margin-top: 8px;
+    margin-left: 30px;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+
+.link-video a {
+    color: #FF9900;
+    text-decoration: underline;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.link-video a:hover {
+    color: #d37f00;
+    text-decoration: underline;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*Navbar*/
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'poppins';
+    padding: 0px 10px;
+}
+
+.btn-signup {
+    background: #FF9900;
+    border: 0;
+    padding: 11px 24px 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 11px 24px 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+    margin-right: 14px;
+    margin-left: 25px;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 11px 24px 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+    margin-right: 14px;
+    margin-left: 25px;
+}
+
+.navbar-nav .navbar-link {
+    color: #2F281E;
+}
+
+@media only screen and (max-width: 768px) {
+    /*Navbar Mobile*/
+    .btn-signup, .btn-secondary {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .btn-signup {
+        margin-top: 15px;
+    }
+    .btn-secondary {
+        margin-top: 15px;
+    }
+
+    .navbar-nav .product {
+        margin-top: 10px;
+    }
+
+    /*Header*/
+    .button-cta a {
+        padding: 7px 18px;
+    }
+
+    .link-video {
+        display: flex;
+    }
+
+    .link-video img {
+        width: 18px;
+    }
+}
+

@@ -1,0 +1,273 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar*/
+nav {
+    margin-top: 16px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #27045B;
+}
+
+.nav-item:hover {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #27045B;
+}
+
+.nav-linked {
+    margin-right: 62px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #27045B;
+}
+
+.btn-signup {
+    border-color: black;
+    border-radius: 0%;
+    width: 120px;
+    color: black;
+    font-size: 16px;
+    font-style: 'poppins';
+    font-weight: 500;
+    margin-right: 11px;
+}
+
+.btn-signup:hover {
+    border-color: black;
+    background: #e4e4e4;
+    width: 120px;
+    color: #27045B;
+    font-size: 16px;
+    font-style: 'poppins';
+    font-weight: 500;
+}
+
+.btn-signin {
+    background: #9852f9;
+    border-radius: 0%;
+    width: 120px;
+    color: #fff;
+    font-size: 16px;
+    font-style: 'poppins';
+    font-weight: 500;
+}
+
+.btn-signin:hover {
+    background: #27045B;
+    border-radius: 0%;
+    width: 120px;
+    color: #fff;
+    font-size: 16px;
+    font-style: 'poppins';
+    font-weight: 500;
+}
+
+/*Hero Section*/
+.hero-section .row h1 {
+    margin-top: 149px;
+    font-style: 'poppins';
+    font-weight: bold;
+    font-size: 46px;
+    color: #27045B;
+}
+
+.hero-section .row p {
+    margin-top: 19px;
+    font-style: 'poppins';
+    font-weight: 300;
+    font-size: 18px;
+    color: #525252;
+}
+
+.btn-showme {
+    margin-top: 58px;
+    background: #9852f9;
+    border-radius: 0%;
+    width: 250px;
+    color: #fff;
+    font-size: 18px;
+    font-style: 'poppins';
+    font-weight: 600;
+    box-shadow: 0 5px #6807F9;
+}
+
+.btn-showme:hover {
+    margin-top: 58px;
+    background: #9852f9;
+    border-radius: 0%;
+    width: 250px;
+    color: #fff;
+    font-size: 18px;
+    font-style: 'poppins';
+    font-weight: 600;
+    box-shadow: 0 2px #6807F9;
+    transform: translateY(2px);
+}
+
+/*Banner*/
+.hero-section .slides {
+    margin-top: 114px;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero-section .slides .first {
+    margin-right: 150px;
+}
+
+.hero-section .slides .second {
+    margin-right: 150px;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 580px;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    transition: 2s;
+}
+
+.navigation-manual {
+    position: absolute;
+    display: flex;
+    width: 580px;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.manual-btn {
+    display: none;
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #081213;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -110%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -220%;
+}
+
+.navigation-auto div {
+    display: none;
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #40d3dc;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #40d3dc;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: #40d3dc;
+}
+
+.company-slide .container .row .col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 71px;
+    height: 31px;
+}
+
+/*Laptop*/
+@media screen and (max-width: 1400px) {
+    #radio1:checked ~ .first {
+        margin-left: 0;
+    }
+    
+    #radio2:checked ~ .first {
+        margin-left: -131%;
+    }
+    
+    #radio3:checked ~ .first {
+        margin-left: -262%;
+    }
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .company-slide .container .row .col {
+        display: none;
+    }
+}
+
+/*Handphone*/
+@media screen and (max-width: 576px) {
+    .hero-section .row h1 {
+        margin-top: 48px;
+        font-style: 'poppins';
+        font-weight: bold;
+        font-size: 46px;
+        color: #27045B;
+    }
+
+    .nav-item {
+        margin-top: 12px;
+    }
+
+    .btn-signup {
+        margin-top: 12px;
+    }
+    
+    .btn-signin {
+        margin-top: 12px;
+    }
+    
+    .btn-signin:hover {
+        background: #27045B;
+        border-radius: 0%;
+        width: 120px;
+        color: #fff;
+        font-size: 16px;
+        font-style: 'poppins';
+        font-weight: 500;
+    }
+}
