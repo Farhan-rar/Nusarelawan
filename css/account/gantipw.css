@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.list-setting .nama h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-setting .nama a {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.list-setting .nama p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list-informasi h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list-informasi .input {
+    margin: 20px 0;
+}
+
+.btn-simpan {
+    background: #6807f9;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-simpan:hover {
+    background: #6807f9;
+    color: #fff;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}

@@ -1,0 +1,146 @@
+body {
+    font-family: 'poppins';
+    background: #f5f5f5;
+}
+
+section {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    height: 75vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.col .kiri img {
+    width: 521px;
+}
+
+.logo img {
+    width: 435px;
+}
+
+.register h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 48px;
+}
+
+.register p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+}
+
+.register-card {
+    width: 560px;
+    height: 379px;
+    background: #fff;
+    margin-top: 48px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 1px 2px #9D9D9D;
+}
+
+.register-card .menu-register {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 23px 28px 23px 27px;
+
+}
+
+.form-control {
+    border: none;
+    height: 42px;
+    border-radius: 20px;
+    margin-top: 12px;
+    background: #f5f5f5;
+}
+
+.register-card .menu-register .email {
+    margin-top: 13px;
+}
+
+.register-card .menu-register .password {
+    margin-top: 13px;
+}
+
+.button-continue {
+    text-align: center;
+}
+
+.register-card .menu-register a {
+    padding: 6px 126px;
+    background: #6807F9;
+    margin-top: 27px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.register-card .menu-register a:hover {
+    padding: 6px 126px;
+    background: #4404a3;
+    margin-top: 27px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1400px) {
+    section {
+        overflow: hidden;
+    }
+
+    .row {
+        margin-bottom: 100px;
+    }
+
+    .col .kiri img {
+        width: 500px;
+    }
+
+    .register p {
+        font-size: 12px;
+    }
+
+    .register-card {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    section {
+        overflow-y: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col .kiri {
+        display: none !important;
+    }
+
+    .register-card {
+        width: auto;
+    }
+
+    .register-card .menu-register a {
+        padding: 6px 80px;
+    }
+
+    .logo img {
+        width: 235px;
+    }
+}

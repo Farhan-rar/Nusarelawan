@@ -1,0 +1,71 @@
+body {
+    font-family: 'poppins';
+    background: #f6f8fd;
+}
+
+.title .judul h1 {
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title .judul p {
+    margin-top: 11px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title .row {
+    margin-top: 50px;
+}
+
+.title .row .search {
+    width: 100%;
+    padding: 14px 0 14px 20px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+}
+
+.title .form-select {
+    margin-top: -50px;
+    padding: 14px 0 14px 20px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+}
+
+.btn-search {
+    margin-top: -75px;
+    padding: 14px 60px 14px 60px;
+    border: none;
+    border-radius: 20px;
+    background: #9852F9;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-search:hover {
+    margin-top: -75px;
+    padding: 14px 60px 14px 60px;
+    border: none;
+    border-radius: 20px;
+    background: #822ef8;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media only screen and (max-width: 748px) {
+    .title .form-select {
+        width: 100%;
+        margin-top: 25px;
+        padding: 14px 0 14px 20px;
+        border: none;
+        border-radius: 20px;
+        background: white;
+    }
+}

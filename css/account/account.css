@@ -1,0 +1,151 @@
+body {
+    font-family: 'poppins';
+    background: #f8f8f8;
+}
+
+.col-4 {
+    border: 1px solid black;
+}
+
+.foto-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.foto-edit h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0 10px 0 0;
+    font-size: 24px;
+}
+
+.foto-edit a {
+    margin-top: 20px;
+    background: #6807F9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 18px;
+}
+
+.foto-edit a:hover {
+    margin-top: 20px;
+    background: #5805d3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 18px;
+}
+
+.foto-edit .foto-profil {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.ini-foto {
+    display: flex;
+    align-items: center;
+}
+
+.foto-edit .form-label {
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.foto-edit .form-control {
+    position: relative;
+    width: 300px;
+}
+
+.list-edit {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.list-edit li {
+    list-style: none;
+}
+
+.list-edit li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+}
+
+.list-edit li a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(102, 18, 170);
+    margin-left: 10px;
+}
+
+.col-8 {
+    border: 1px solid green;
+}
+
+.list-setting {
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.list-descrypt {
+    list-style: none;
+}
+
+.list-descrypt li {
+    margin-top: 35px;
+}
+
+.list-descrypt a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.list-descrypt a:hover {
+    text-decoration: none;
+    color: rgb(102, 18, 170);
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .list-edit {
+        margin: 0;
+    }
+
+    .list-edit li a {
+        margin-left: 0;
+        font-size: 8px;
+    }
+
+    .list-edit li img {
+        width: 10px;
+    }
+}

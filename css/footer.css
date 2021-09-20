@@ -79,6 +79,15 @@ footer .kolom-4 a {
     color: #000000;
 }
 
+footer a img {
+    opacity: 0.75;
+}
+
+footer a img:hover {
+    opacity: 1;
+}
+
+
 footer .kolom-4 a:hover {
     display: flex;
     text-decoration: none;

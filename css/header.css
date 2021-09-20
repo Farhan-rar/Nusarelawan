@@ -10,6 +10,8 @@ nav {
 
 .navbar-nav {
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .nav-item {
@@ -165,6 +167,20 @@ nav {
     transition: 1s;
 }
 
+.btn-submit {
+    background: #27045B;
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px 18px;
+}
+
+.btn-submit:hover {
+    background: #27045B;
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px 18px;
+}
+
 .manual-btn:not(:last-child) {
     margin-right: 40px;
 }
@@ -241,6 +257,10 @@ nav {
 
 /*Handphone*/
 @media screen and (max-width: 576px) {
+    .navbar-nav {
+        display: inline;
+    }
+
     .hero-section .row h1 {
         margin-top: 48px;
         font-style: 'poppins';
